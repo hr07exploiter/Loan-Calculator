@@ -1,0 +1,23 @@
+/* Devloped By Shubham Yadav */
+body {
+  background: #0a2a32;
+}
+.container {
+  height: 100vh;
+  position: relative;
+}
+.calculate-form {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+}
+#loading,
+#result {
+  display: none;
+}
+@media (max-width: 750px) {
+  #loading img {
+    width: 100%;
+  }
+}
